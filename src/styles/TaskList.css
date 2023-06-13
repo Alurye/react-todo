@@ -1,0 +1,42 @@
+.task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .task-item.completed {
+    background-color: #e2e2e2;
+  }
+  
+  .task-item span {
+    flex-grow: 1;
+    margin-right: 16px;
+    text-decoration: none;
+  }
+  
+  .task-buttons button {
+    margin-left: 8px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .complete-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
